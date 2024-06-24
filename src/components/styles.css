@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+ol li {
+  list-style: none;
+
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+li a {
+  text-decoration: none;
+  font-size: 15px;
+}
+li a:hover {
+  color: #f5b919;
+}
+
+#logo {
+  border: 2px solid black;
+  width: 180px;
+  text-align: center;
+  padding: 2px;
+  height: 25px;
+  position: relative;
+  top: 15px;
+  font-weight: bold;
+}
+.top {
+  display: grid;
+  grid-template-areas: "logo menu";
+  grid-template-columns: 1fr 0.4fr;
+
+  font-size: 13px;
+}
+.macbook img {
+  height: 400px;
+
+  width: 100%;
+}
+article {
+  text-align: center;
+}
+.down {
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  padding: 50px;
+}
+.down img {
+  height: 200px;
+}
+p {
+  color: gray;
+}
+#art-p {
+  margin: 0% 30%;
+}
+.down::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+h5 {
+  color: orange;
+}
+button {
+  background-color: #f5b919;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 60px;
+  text-align: center;
+  position: absolute;
+  bottom: -330px;
+  right: 600px;
+}
+section {
+  background-color: rgb(235, 232, 232);
+}
+div {
+  background-color: rgb(235, 232, 232);
+}
+.wrapper {
+  overflow: hidden;
+}
